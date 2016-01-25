@@ -204,12 +204,13 @@
       border-bottom-right-radius: 0px; } }
 
 .c-input {
-  background-color: yellow;
+  background-color: white;
   border: none;
   border-radius: none;
   margin: 4px;
   width: 259px;
-  height: 20px; }
+  height: 20px;
+  outline: none; }
   @media screen and (max-device-width: 740px) {
     .c-input {
       width: 345px; } }
@@ -274,7 +275,7 @@ h4 {
 
 .c-title input {
   width: 233px;
-  background-color: yellow; }
+  background-color: white; }
 
 .c-hour-picker {
   margin: 2px;

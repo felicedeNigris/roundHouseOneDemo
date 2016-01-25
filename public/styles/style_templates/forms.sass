@@ -1,5 +1,5 @@
 @import ../mixins/buttons
-
+$inputcolor: white
 
 .m-form-container
   background-color: rgba(117,140,149,1)
@@ -19,13 +19,13 @@
     border-top-right-radius: 0px
     border-bottom-right-radius: 0px
 .c-input
-  background-color: yellow
+  background-color: $inputcolor
   border: none
   border-radius: none
   margin: 4px
   width: 259px
   height: 20px
-  outline:none
+  outline: none
   @media screen and (max-device-width: 740px)
     width: 345px
   @media screen and (max-width: 740px)
@@ -71,7 +71,7 @@ h4
 .c-title
   input
     width: 233px
-    background-color: yellow
+    background-color: $inputcolor
 
 
 .c-hour-picker
