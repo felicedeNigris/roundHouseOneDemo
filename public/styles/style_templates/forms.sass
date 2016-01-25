@@ -1,0 +1,132 @@
+@import ../mixins/buttons
+
+
+.m-form-container
+  background-color: rgba(117,140,149,1)
+  padding-bottom: 40px
+  max-width: 300px
+  border-top-right-radius: .4em
+  border-bottom-right-radius: .4em
+  padding-left: 20px
+  float: left
+  margin-top: 10px
+  @media screen and (max-device-width: 740px)
+    min-width: 100%
+    border-top-right-radius: 0px
+    border-bottom-right-radius: 0px
+  @media screen and (max-width: 740px)
+    min-width: 100%
+    border-top-right-radius: 0px
+    border-bottom-right-radius: 0px
+.c-input
+  background-color: yellow
+  border: none
+  border-radius: none
+  margin: 4px
+  width: 259px
+  height: 20px
+  outline:none
+  @media screen and (max-device-width: 740px)
+    width: 345px
+  @media screen and (max-width: 740px)
+    width: 345px
+.c-button
+  +buttonstyle($purp, $borderpurp)
+  width: 80px
+  margin-left: 10px
+  //height: 50%
+p
+  font-family: $font-stack
+h4
+  font-family: $font-stack
+
+.c-data-title
+  position: relative
+  top: 10px
+
+.c-timezones-picker
+  background-color: $purp
+  border: solid $borderpurp 1px
+  border-bottom-color: $borderpurp
+  border-bottom-width: medium
+  height: 30px
+  color: white
+  text-align: center
+  border-radius: .3em
+  @include appearance(none)
+  padding: 0px 1px 0px 24px
+  font-family: $font-stack
+  text-shadow: 0px 1px 3px $shadow
+  font-size: 16px
+  width: 260px
+  position: relative
+  overflow: auto
+
+
+.c-calendar
+  outline: none
+  height: 20px
+  border: none
+
+.c-title
+  input
+    width: 233px
+    background-color: yellow
+
+
+.c-hour-picker
+  +buttonstyle($purp, $borderpurp)
+  width: 80px
+  position: relative
+  left: 9px
+
+.c-attribute-buttons
+  position: relative
+  left: 8px
+
+.o-popout-tags-wrapper
+  position: relative
+  left: 170px
+  bottom: 10px
+  z-index: -1
+  transform: rotate(90deg)
+  @media screen and (max-device-width: 740px)
+    z-index: 1
+    float: left
+    bottom: 25%
+    position: fixed
+    left: -94px
+  @media screen and (max-width: 740px)
+    z-index: 1
+    float: left
+    bottom: 25%
+    position: fixed
+    left: -94px
+.c-pop-tag
+  +buttonstyle(#00B0BD, #008892)
+  width: 60px
+  height: 50px
+  border-top-width: thick
+  border-bottom-width: thin
+  display: inline-block
+  margin-top: 20px
+  transition: all .4s ease-in
+  cursor: pointer
+  &:hover
+    transform: translateY(-20px)
+    transition: all .3s ease-out
+  a
+    text-decoration: none
+    color: white
+    position: relative
+    bottom: 5px
+
+#datepick2
+  @media screen and (max-width: 740px)
+    width: 223px
+    //background-color: yellow
+
+#datepick1
+  @media screen and (max-width: 740px)
+    width: 324px
+    //background-color: yellow

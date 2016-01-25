@@ -1,0 +1,124 @@
+div(class="m-form-container")
+  div(class="m-inputform")
+    form(class="o-nameinputfield")
+      h4(class="c-data-title") Data Inputs
+      input(class="c-input" type="text" placeholder="Enter Name")
+      i(class="mdi  mdi-tag-outline" style="font-size: 20px; margin-left:5px")
+        span
+          input(class="c-input" type="text" placeholder="Enter Tags" style="width: 234px")
+
+      
+    form(class="o-datafilter")
+      p Axis Type
+        span 
+          button(class="c-button") Time
+      p Attribute
+        span(class="c-attribute-buttons")
+          button(class="c-button") Data
+
+          button(class="c-button") Group
+      br
+      
+    form(class="o-timezoneform")
+      h4(class="c-title") Select a Time Zone
+        span
+          select(class="c-timezones-picker")
+            option(value="UTC+12") Anadyr
+            option(value="UTC+11") Melbourne
+            option(value="UTC+10") Brisbane
+            option(value="UTC+9") Tokyo
+            option(value="UTC+8") Beijing
+            option(value="UTC+7") Jakarta
+            option(value="UTC+6") Dhaka
+            option(value="UTC+5") Tashkent
+            option(value="UTC+4") Dubai
+            option(value="UTC+3") Moscow
+            option(value="UTC+2") Cairo
+            option(value="UTC+1") Brussels
+            option(value="UTC+0") London
+            option(value="UTC-1") Praia
+            option(value="UTC-2") Rio de Janeiro
+            option(value="UTC-3") Buenos Aires
+            option(value="UTC-4") La Paz
+            option(value="UTC-5" selected) New York
+            option(value="UTC-6") Mexico City
+            option(value="UTC-7") Calgary
+            option(value="UTC-8") Los Angeles
+            option(value="UTC-9") Anchorage
+            option(value="UTC-10") Honolulu
+            option(value="UTC-11") Alofi
+            option(value="UTC-12") Baker Island
+            
+    form(class="o-datepicker")
+      h4(class="c-title") Date
+        span
+          i(class="mdi mdi-calendar"  style="font-size: 20px; margin-left:5px; display: block")
+            span
+              input(class="c-calendar" id="datepick1" type="date")
+          
+      h4(class="c-title") Exclude Date
+        span
+          i(class="mdi mdi-calendar-remove" style="font-size: 20px; margin-left:5px")
+            span
+              input(class="c-calendar" id="datepick2" type="date")
+      h4(class="c-title") Filter Dates
+        input(class="c-input" type="text" placeholder="Day Filter" style="width: 254px")
+      h4(class="c-title") Time Range
+        select(class="c-hour-picker")
+          option(value="12am") 12am
+          option(value="1am") 1am
+          option(value="2am") 2am
+          option(value="3am") 3am
+          option(value="4am") 4am
+          option(value="5am") 5am
+          option(value="6am") 6am
+          option(value="7am") 7am
+          option(value="8am") 8am
+          option(value="9am") 9am
+          option(value="10am") 10am
+          option(value="11am") 11am
+          option(value="12pm") 12pm
+          option(value="1pm") 1pm
+          option(value="2pm") 2pm
+          option(value="3pm") 3pm
+          option(value="4pm") 4pm
+          option(value="5pm") 5pm
+          option(value="6pm") 6pm
+          option(value="7pm") 7pm
+          option(value="8pm") 8pm
+          option(value="9pm") 9pm
+          option(value="10pm") 10pm
+          option(value="11pm") 11pm
+    
+        select(class="c-hour-picker")
+          option(value="12am") 12am
+          option(value="1am") 1am
+          option(value="2am") 2am
+          option(value="3am") 3am
+          option(value="4am") 4am
+          option(value="5am") 5am
+          option(value="6am") 6am
+          option(value="7am") 7am
+          option(value="8am") 8am
+          option(value="9am") 9am
+          option(value="10am") 10am
+          option(value="11am") 11am
+          option(value="12pm") 12pm
+          option(value="1pm") 1pm
+          option(value="2pm") 2pm
+          option(value="3pm") 3pm
+          option(value="4pm") 4pm
+          option(value="5pm") 5pm
+          option(value="6pm") 6pm
+          option(value="7pm") 7pm
+          option(value="8pm") 8pm
+          option(value="9pm") 9pm
+          option(value="10pm") 10pm
+          option(value="11pm") 11pm
+  
+  div(class="o-popout-tags-wrapper")
+    div(class="c-pop-tag" style="opacity: 0")
+    div(class="c-pop-tag")
+      a(href="#") Settings
+    div(class="c-pop-tag")
+      a(href="#") Series

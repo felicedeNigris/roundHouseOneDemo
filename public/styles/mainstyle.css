@@ -1,0 +1,421 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,600);
+.m-mobile-header {
+  display: none; }
+  @media screen and (max-device-width: 650px) {
+    .m-mobile-header {
+      display: block; } }
+  @media screen and (max-width: 650px) {
+    .m-mobile-header {
+      display: block; } }
+
+.o-mobile-nav {
+  background-color: #e00d53;
+  border: solid #8b1342 1px;
+  border-bottom-color: #8b1342;
+  border-bottom-width: medium;
+  border-left: none;
+  border-right: none;
+  min-width: 100%;
+  height: 45px;
+  color: white;
+  border-radius: 0em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  padding-left: 45%;
+  font-family: "Open Sans";
+  text-shadow: 0px 1px 3px #441538;
+  font-size: 16px; }
+
+.m-header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -moz-box-direction: reverse;
+  box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  background-color: #758c95;
+  position: absolute;
+  top: 0px;
+  min-width: 100%;
+  border-bottom-color: #4c5557;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  box-shadow: 0px 1px 10px 3px rgba(127, 127, 127, 0.6); }
+  @media screen and (max-device-width: 650px) {
+    .m-header {
+      display: none; } }
+  @media screen and (max-width: 650px) {
+    .m-header {
+      display: none; } }
+
+.o-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -moz-box-direction: reverse;
+  box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  justify-content: center;
+  position: relative;
+  right: 20px; }
+
+.c-link {
+  list-style-type: none; }
+  .c-link button {
+    margin: 2px;
+    background-color: #e00d53;
+    border: solid #8b1342 1px;
+    border-bottom-color: #8b1342;
+    border-bottom-width: thick;
+    max-width: 400px;
+    font-family: "Open Sans";
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 0px 1px 3px #441538;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 150px;
+    position: relative;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out; }
+  .c-link button:hover {
+    background-color: #AD0C41; }
+  .c-link button:checked {
+    border-bottom-width: 10px;
+    top: 2px;
+    border-bottom-width: 1px;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out; }
+
+.o-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  box-shadow: 1px solid black;
+  -webkit-filter: contrast(200%);
+  filter: contrast(200%); }
+
+@media screen and (max-device-width: 1030px) {
+  .c-logo {
+    width: 140px; } }
+@media screen and (max-width: 1030px) {
+  .c-logo {
+    width: 140px; } }
+@media screen and (max-device-width: 900px) {
+  .c-logo {
+    opacity: 0; } }
+@media screen and (max-width: 900px) {
+  .c-logo {
+    opacity: 0; } }
+
+.o-filePublishSettings {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  @media screen and (max-device-width: 650px) {
+    .o-filePublishSettings {
+      flex-direction: column;
+      margin-top: 2px; } }
+  @media screen and (max-width: 650px) {
+    .o-filePublishSettings {
+      flex-direction: column;
+      margin-top: 2px; } }
+
+.c-fileoption {
+  margin: 2px;
+  background-color: #00B0BD;
+  border: solid #008892 1px;
+  border-bottom-color: #008892;
+  border-bottom-width: thick;
+  max-width: 400px;
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 0px 1px 3px #441538;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 150px;
+  flex-grow: 2; }
+  @media screen and (max-device-width: 650px) {
+    .c-fileoption {
+      min-width: 100%;
+      flex-grow: 3; } }
+  @media screen and (max-width: 650px) {
+    .c-fileoption {
+      min-width: 100%;
+      flex-grow: 3; } }
+
+.m-form-container {
+  background-color: #758c95;
+  padding-bottom: 40px;
+  max-width: 300px;
+  border-top-right-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  padding-left: 20px;
+  float: left;
+  margin-top: 10px; }
+  @media screen and (max-device-width: 740px) {
+    .m-form-container {
+      min-width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px; } }
+  @media screen and (max-width: 740px) {
+    .m-form-container {
+      min-width: 100%;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px; } }
+
+.c-input {
+  background-color: yellow;
+  border: none;
+  border-radius: none;
+  margin: 4px;
+  width: 259px;
+  height: 20px; }
+  @media screen and (max-device-width: 740px) {
+    .c-input {
+      width: 345px; } }
+  @media screen and (max-width: 740px) {
+    .c-input {
+      width: 345px; } }
+
+.c-button {
+  margin: 2px;
+  background-color: #e00d53;
+  border: solid #8b1342 1px;
+  border-bottom-color: #8b1342;
+  border-bottom-width: thick;
+  max-width: 400px;
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 0px 1px 3px #441538;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 150px;
+  width: 80px;
+  margin-left: 10px; }
+
+p {
+  font-family: "Open Sans"; }
+
+h4 {
+  font-family: "Open Sans"; }
+
+.c-data-title {
+  position: relative;
+  top: 10px; }
+
+.c-timezones-picker {
+  background-color: #e00d53;
+  border: solid #8b1342 1px;
+  border-bottom-color: #8b1342;
+  border-bottom-width: medium;
+  height: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 0.3em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  padding: 0px 1px 0px 24px;
+  font-family: "Open Sans";
+  text-shadow: 0px 1px 3px #441538;
+  font-size: 16px;
+  width: 260px;
+  position: relative;
+  overflow: auto; }
+
+.c-calendar {
+  outline: none;
+  height: 20px;
+  border: none; }
+
+.c-title input {
+  width: 233px;
+  background-color: yellow; }
+
+.c-hour-picker {
+  margin: 2px;
+  background-color: #e00d53;
+  border: solid #8b1342 1px;
+  border-bottom-color: #8b1342;
+  border-bottom-width: thick;
+  max-width: 400px;
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 0px 1px 3px #441538;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 150px;
+  width: 80px;
+  position: relative;
+  left: 9px; }
+
+.c-attribute-buttons {
+  position: relative;
+  left: 8px; }
+
+.o-popout-tags-wrapper {
+  position: relative;
+  left: 170px;
+  bottom: 10px;
+  z-index: -1;
+  transform: rotate(90deg); }
+  @media screen and (max-device-width: 740px) {
+    .o-popout-tags-wrapper {
+      z-index: 1;
+      float: left;
+      bottom: 25%;
+      position: fixed;
+      left: -94px; } }
+  @media screen and (max-width: 740px) {
+    .o-popout-tags-wrapper {
+      z-index: 1;
+      float: left;
+      bottom: 25%;
+      position: fixed;
+      left: -94px; } }
+
+.c-pop-tag {
+  margin: 2px;
+  background-color: #00B0BD;
+  border: solid #008892 1px;
+  border-bottom-color: #008892;
+  border-bottom-width: thick;
+  max-width: 400px;
+  font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 0px 1px 3px #441538;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 150px;
+  width: 60px;
+  height: 50px;
+  border-top-width: thick;
+  border-bottom-width: thin;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all 0.4s ease-in;
+  cursor: pointer; }
+  .c-pop-tag:hover {
+    transform: translateY(-20px);
+    transition: all 0.3s ease-out; }
+  .c-pop-tag a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 5px; }
+
+@media screen and (max-width: 740px) {
+  #datepick2 {
+    width: 223px; } }
+
+@media screen and (max-width: 740px) {
+  #datepick1 {
+    width: 324px; } }
+
+.m-chart-container {
+  display: flex;
+  justify-content: center; }
+  @media screen and (max-width: 740px) {
+    .m-chart-container {
+      clear: left; } }
+
+.c-chart-image {
+  border: 1px solid rgba(98, 98, 98, 0.79);
+  box-shadow: 2px 4px 8px rgba(95, 95, 103, 0.27);
+  max-width: 856px;
+  max-height: 649px;
+  flex-grow: 1;
+  margin-top: 20px;
+  margin-right: 20px; }
+  @media screen and (max-width: 1208px) {
+    .c-chart-image {
+      max-width: 570.6px;
+      max-height: 432.6px;
+      margin-top: 20px;
+      margin-right: 0px; } }
+  @media screen and (max-width: 1208px) and (max-width: 907px) {
+    .c-chart-image {
+      margin-top: 20px;
+      max-width: 410.4px;
+      max-height: 311.4px; } }
+
+  @media screen and (max-width: 1208px) and (max-width: 907px) and (max-width: 550px) {
+    .c-chart-image {
+      max-width: 285px;
+      max-height: 216px;
+      margin-top: 20px;
+      margin-right: 0px; } }
+
+  @media screen and (max-device-width) {
+    .c-chart-image {
+      max-width: 570.6px;
+      max-height: 432.6px;
+      margin-top: 20px;
+      margin-right: 0px; } }
+  @media screen and (max-device-width) and (max-device-width: 907px) {
+    .c-chart-image {
+      margin-top: 20px;
+      max-width: 410.4px;
+      max-height: 311.4px; } }
+
+  @media screen and (max-device-width) and (max-device-width: 907px) and (max-device-width: 550px) {
+    .c-chart-image {
+      max-width: 285px;
+      max-height: 216px;
+      margin-top: 20px;
+      margin-right: 0px; } }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white; }
+
+/*# sourceMappingURL=mainstyle.css.map */

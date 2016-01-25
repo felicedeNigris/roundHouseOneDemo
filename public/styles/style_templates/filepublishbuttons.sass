@@ -1,0 +1,23 @@
+@import ../mixins/buttons
+
+
+.o-filePublishSettings
+  @include display(flex)
+  margin-top: 100px
+  margin-left: 10px
+  margin-right: 10px
+  @media screen and (max-device-width: 650px)
+    flex-direction: column
+    margin-top: 2px
+  @media screen and (max-width: 650px)
+    flex-direction: column
+    margin-top: 2px
+.c-fileoption
+  +buttonstyle(#00B0BD, #008892)
+  flex-grow: 2
+  @media screen and (max-device-width: 650px)
+    min-width: 100%
+    flex-grow: 3
+  @media screen and (max-width: 650px)
+    min-width: 100%
+    flex-grow: 3
